@@ -14,8 +14,8 @@ namespace printprimes
 
             Console.WriteLine("Please enter the number of primes you wish to print:");
 
-            //            int number = Convert.ToInt32(Console.ReadLine());
-            int number = 512;
+            int number = Convert.ToInt32(Console.ReadLine());
+            //int number = 1000000;
 
             ArrayList primeList = new ArrayList();
 
@@ -30,14 +30,15 @@ namespace printprimes
                 if (isPrime(currentNum))
                 {
                     primeList.Add(currentNum);
+                    Console.WriteLine(currentNum);
                 }
                 currentNum++;
             }
 
-            foreach (int num in primeList)
-            {
-                Console.WriteLine(num);
-            }
+            //foreach (int num in primeList)
+            //{
+            //    Console.WriteLine(num);
+            //}
 
             return;
         }
