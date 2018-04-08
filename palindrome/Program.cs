@@ -7,7 +7,7 @@ namespace palindrome
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a string to test as a palindrome: ");
-            string test = "barferino";// Console.ReadLine();
+            string test = Console.ReadLine();
             test.ToLower();
             char[] strA = test.ToCharArray();
             char[] strB = new char[strA.Length];
@@ -24,6 +24,10 @@ namespace palindrome
             {
                 Console.WriteLine(test + " is not a palindrome.");
             }
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
+            return;
         }
     }
 }

@@ -40,6 +40,8 @@ namespace printprimes
             //    Console.WriteLine(num);
             //}
 
+            Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
             return;
         }
 

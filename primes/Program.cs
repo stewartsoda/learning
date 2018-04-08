@@ -36,6 +36,8 @@ namespace primes
                 }
             }
 
+            Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
             return;
         }
     }
