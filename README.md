@@ -1,6 +1,9 @@
 # learning
 This is a collection of learning projects I've done.
 
+## delegates
+This project is for exploring how to use delegates.
+
 ## palindrome
 This project tests if a word is a palindrome.
 
